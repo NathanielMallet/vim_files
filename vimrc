@@ -8,4 +8,4 @@
 :set shiftwidth=4
 
 " Color scheme - This is Atom's default color scheme. It's not quite the same, although it might be due to the syntax files being off
-:colorscheme onedark
+:colorscheme codedark 
