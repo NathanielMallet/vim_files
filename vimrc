@@ -12,3 +12,6 @@
 
 " Enable lightline status bar
 :set laststatus=2
+
+" Enable indent guides via IndentGuides plugin
+let g:indent_guides_enable_on_vim_startup = 1

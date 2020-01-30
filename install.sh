@@ -23,8 +23,17 @@ fi
 # 
 if [[ ! -d ~/.vim/pack/plugins/start/lightline ]]
 then
-    git clone https://github.com/itchyny/lightline.vim ~/.vim/pack/plugins/start/lightline
+    git clone https://github.com/itchyny/lightline.vim ~/.vim/pack/vim-lightline/start/lightline
 fi
+
+#
+# Indent Guides
+#
+if [[ ! -d ~/.vim/pack/vim-indent-guides/start/vim-indent-guides ]]
+then
+    git clone https://github.com/nathanaelkane/vim-indent-guides.git ~/.vim/pack/vim-indent-guides/start/vim-indent-guides
+fi
+
 
 # 
 # Color Files
