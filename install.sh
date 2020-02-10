@@ -3,6 +3,16 @@
 ### Install Plugins
 
 #
+# NERDTree
+#
+NERDTREE_DIR=~/.vim/pack/vim-nerdtree/start/vim-nerdtree
+if [[ ! -d $NERDTREE_DIR ]]
+then
+    git clone https://github.com/preservim/nerdtree.git $NERDTREE_DIR
+fi
+
+
+#
 # Lightline
 # 
 if [[ ! -d ~/.vim/pack/plugins/start/lightline ]]
@@ -48,7 +58,7 @@ fi
 # 
 if [[ ! -d ~/.vim/pack/vim-nerdcommenter/start/vim-nerdcommenter ]]
 then
-    git clone https://github.com/preservim/nerdcommenter.git ~/.vim/pack/vim-nercommenter/start/vim-nerdcommenter
+    git clone https://github.com/preservim/nerdcommenter.git ~/.vim/pack/vim-nerdcommenter/start/vim-nerdcommenter
 fi
 
 #
