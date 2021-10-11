@@ -1,4 +1,6 @@
-" Vim Code Dark (color scheme)
+" Vim Code Dark Ruby (color scheme)
+" Code Dark Color Scheme with enhancements for Ruby
+" Based off of the original code dark color scheme:
 " https://github.com/tomasiser/vim-code-dark
 
 scriptencoding utf-8
@@ -294,6 +296,24 @@ call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('rubyClassName', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('rubyModuleName', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('rubyConstant', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('rubyRegexp', s:cdRed, {}, 'none', {})
+call <sid>hi('rubyRegexpDelimiter', s:cdRed, {}, 'none', {})
+call <sid>hi('rubyRegexpQuantifier', s:cdRed, {}, 'none', {})
+call <sid>hi('rubyRegexpAnchor', s:cdRed, {}, 'none', {})
+call <sid>hi('rubyRegexpDot', s:cdRed, {}, 'none', {})
+call <sid>hi('rubyRegexpParens', s:cdRed, {}, 'none', {})
+call <sid>hi('rubyRegexpBrackets', s:cdRed, {}, 'none', {})
+call <sid>hi('rubyRegexpEscape', s:cdRed, {}, 'none', {})
+call <sid>hi('rubySymbol', s:cdBlue, {}, 'none', {})
+call <sid>hi('rubyMethodName', s:cdYellow, {}, 'none', {})
+call <sid>hi('rubyInstanceVariable', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('rubyInclude', s:cdBlue, {}, 'none', {})
+call <sid>hi('rubyAccess', s:cdBlue, {}, 'none', {})
+call <sid>hi('rubyComment', s:cdGreen, {}, 'none', {})
+call <sid>hi('rubyAttribute', s:cdBlue, {}, 'none', {})
+call <sid>hi('rubyFunction', s:cdBlue, {}, 'none', {})
+call <sid>hi('rubyBlockParameterList', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('rubyFunction', s:cdOrange, {}, 'none', {})
 
 " Golang:
 call <sid>hi('goPackage', s:cdBlue, {}, 'none', {})
